@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting_general_title" android:key="@string/setting_key">
+        <PreferenceScreen android:title="@string/setting_language" android:key="@string/setting_language_summary_key" android:summary="@string/setting_language_summary" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_space_input_title" android:key="@string/setting_space_input_key" android:summaryOn="@string/setting_enabled" android:summaryOff="@string/setting_disabled" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_qwerty_correct_title" android:key="@string/setting_qwerty_correct_error_key" android:summary="@string/setting_qwerty_correct_summary" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_prediction_title" android:key="@string/setting_prediction_key" android:summaryOn="@string/setting_enabled" android:summaryOff="@string/setting_disabled" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/setting_auto_capitalization_title" android:key="@string/setting_auto_capitalization_key" android:summary="@string/setting_auto_capitalization_summary" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_auto_fullstop_title" android:key="@string/setting_auto_fullstop_key" android:summaryOn="@string/setting_auto_fullstop_summary" android:summaryOff="@string/setting_auto_fullstop_summary" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_link_to_contacts_title" android:key="@string/setting_link_to_contacts_key" android:summaryOn="@string/setting_link_to_contacts_summary" android:summaryOff="@string/setting_link_to_contacts_summary" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_voice_input_title" android:key="@string/setting_voice_input_key" android:summary="@string/setting_voice_input_summary" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_pointing_keyboard_title" android:key="@string/setting_pointing_keyboard_key" android:summaryOn="@string/setting_pointing_keyboard_summary" android:summaryOff="@string/setting_pointing_keyboard_summary" />
+    <com.samsung.inputmethod.setting.SimeSwipeOnKeyboardPreference android:title="@string/setting_keyboard_swipe_key_title" android:key="@string/setting_keyboard_swipe_key" android:widgetLayout="@layout/settings_layout_more_button" android:dialogTitle="@string/setting_keyboard_swipe_key_title" android:negativeButtonText="cancel" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_one_hand_mode_title" android:key="@string/setting_one_hand_mode_key" android:summaryOn="@string/setting_one_hand_mode_summary" android:summaryOff="@string/setting_one_hand_mode_summary" />
+    <Preference android:title="@string/setting_fuzzy_pinyin_input_title" android:key="setting_fuzzy_pinyin_input_key"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <Preference android:title="@string/setting_handwrite" android:key="setting_handwrite_summary_key"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <PreferenceCategory android:title="@string/setting_keypad_type_title" android:key="@string/setting_keypad_type_key" />
+    <ListPreference android:title="@string/setting_portrait_input_mode_english_title" android:key="@string/setting_portrait_english_input_mode_key" android:widgetLayout="@layout/settings_layout_more_button" />
+    <PreferenceCategory android:title="@string/setting_feedback_title" android:key="@string/setting_feedback_Category_key">
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_char_preview_title" android:key="@string/setting_char_preview_key" android:summaryOn="@string/setting_enabled" android:summaryOff="@string/setting_disabled" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_vibrate_keypress_title" android:key="@string/setting_vibrate_keypress_key" android:summaryOn="@string/setting_enabled" android:summaryOff="@string/setting_disabled" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/setting_sound_keypress_title" android:key="@string/setting_sound_keypress_key" android:summaryOn="@string/setting_enabled" android:summaryOff="@string/setting_disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_others_title" android:key="@string/setting_others_key">
+        <Preference android:title="@string/setting_db_update_title" android:key="@string/setting_db_update_key"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <Preference android:title="@string/setting_reset_setting_title" android:key="@string/setting_reset_setting_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_about_title" android:key="@string/setting_about_Category_key">
+        <Preference android:title="@string/setting_version_title" android:key="@string/setting_about_key" android:summary="@string/setting_about_unknown" style="?android:preferenceInformationStyle" />
+    </PreferenceCategory>
+</PreferenceScreen>

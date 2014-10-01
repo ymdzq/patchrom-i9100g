@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="@*android:style/Theme.DeviceDefault" />
+    <style name="Layout0">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Layout1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Layout2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Layout3">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="MainLayout" parent="@style/Layout0" />
+    <style name="HorizontalLayout" parent="@style/Layout2">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="VerticalLayout" parent="@style/Layout2">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="StatusLayout" parent="@style/VerticalLayout">
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">11.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+    </style>
+    <style name="ListItemLayout1" parent="@style/VerticalLayout">
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ListItemLayout2" parent="@style/VerticalLayout">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">11.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ListItemLayout3">
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_width">90.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CancelButtonLayout">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/list_cancel_button_bg</item>
+        <item name="android:layout_width">50.0dip</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="DialogLayout" parent="@style/Layout0">
+        <item name="android:layout_marginLeft">17.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginRight">17.0dip</item>
+        <item name="android:layout_marginBottom">18.0dip</item>
+    </style>
+    <style name="FileListLayout1" parent="@style/DialogLayout">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="FileListLayout2" parent="@style/DialogLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">130.0dip</item>
+    </style>
+    <style name="NotificationLayout1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">64.0dip</item>
+    </style>
+    <style name="NotificationLayout2" parent="@style/VerticalLayout">
+        <item name="android:layout_width">55.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="NotificationLayout3" parent="@style/VerticalLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">13.0dip</item>
+    </style>
+    <style name="Text" parent="@style/Layout1">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="LargeFont" parent="@style/Text">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="MediumFont" parent="@style/Text">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="SmallFont" parent="@style/Text">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="TitleText" parent="@style/LargeFont">
+        <item name="android:textColor">#ffd7d7d7</item>
+    </style>
+    <style name="SubText1" parent="@style/SmallFont">
+        <item name="android:textColor">#ff898989</item>
+    </style>
+    <style name="SubText2" parent="@style/SmallFont">
+        <item name="android:textColor">#ff6fc7ea</item>
+    </style>
+    <style name="NotiTitleText" parent="@style/Text">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#ffe6e6e6</item>
+    </style>
+    <style name="NotiSubText1" parent="@style/Text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff9b9b9b</item>
+    </style>
+    <style name="SubTitleText" parent="@style/SmallFont">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">#ffd2d2d2</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/tw_list_section_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="FilelistItemText" parent="@style/Text">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">#ffc8c8c8</item>
+    </style>
+    <style name="DeviceList" parent="@style/Layout3">
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+    <style name="ThumbnailImage">
+        <item name="android:layout_width">27.0dip</item>
+        <item name="android:layout_height">27.0dip</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+    </style>
+    <style name="CancelImage">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">20.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:src">@drawable/list_cancel_button</item>
+    </style>
+    <style name="SendingImage">
+        <item name="android:layout_width">25.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:src">@drawable/ic_wifi_direct_sending</item>
+    </style>
+    <style name="TransferProgressbar" parent="@*android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4.0dip</item>
+        <item name="android:layout_marginTop">9.0dip</item>
+        <item name="android:maxHeight">4.0dip</item>
+    </style>
+    <style name="OngoingProgressbar" parent="@*android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">8.0dip</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>

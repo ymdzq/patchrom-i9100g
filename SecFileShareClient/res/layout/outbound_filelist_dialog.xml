@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Layout0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/dialogScrollView1" style="@style/FileListLayout1">
+        <LinearLayout android:id="@id/dialogLinearLayout1" style="@style/VerticalLayout" />
+    </ScrollView>
+    <ScrollView android:id="@id/dialogScrollView2" style="@style/FileListLayout2">
+        <LinearLayout android:id="@id/dialogLinearLayout2" style="@style/VerticalLayout" />
+    </ScrollView>
+</LinearLayout>

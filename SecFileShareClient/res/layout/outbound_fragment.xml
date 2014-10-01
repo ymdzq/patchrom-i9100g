@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/MainLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/totalstatus_layout" android:background="@drawable/list_item_bg" style="@style/VerticalLayout">
+        <LinearLayout style="@style/StatusLayout">
+            <LinearLayout style="@style/HorizontalLayout">
+                <TextView android:id="@id/totalstatus_textview" android:layout_weight="1.0" style="@style/TitleText" />
+                <TextView android:id="@id/totalsize_textView" style="@style/SubText1" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" style="@style/HorizontalLayout">
+                <TextView android:id="@id/fileName_textview" android:layout_weight="1.0" style="@style/SubText1" />
+                <TextView android:id="@id/more_textView" style="@style/SubText1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/sendingFiles_TextView" android:text="@string/sending_files_to" android:layout_below="@id/totalstatus_layout" style="@style/SubTitleText" />
+    <ListView android:id="@id/item_progress" android:layout_below="@id/sendingFiles_TextView" style="@style/DeviceList" />
+</RelativeLayout>

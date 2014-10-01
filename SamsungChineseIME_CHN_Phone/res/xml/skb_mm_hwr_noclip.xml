@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard skb_template="@xml/skb_template2" key_xmargin="0%p" key_ymargin="0%p" skb_cache_flag="true" width="100%p" height="100%p" key_type="3" skb_bg="@drawable/alternative_character_bg" skb_ver_linenum="2" skb_hor_linenum="0" repeat="false" balloon="true">
+    <row>
+        <key start_pos_x="0.0%p" start_pos_y="0%p" width="33.3%p" height="100%p" key_type="17" repeat="false" balloon="false" icon="@drawable/popup_key_icon_voice" hlicon="@drawable/popup_key_icon_voice_pressed" code="-120" />
+        <key start_pos_x="33.3%p" start_pos_y="0%p" width="33.3%p" height="100%p" key_type="17" repeat="false" balloon="false" icon="@drawable/popup_key_icon_keyboard" hlicon="@drawable/popup_key_icon_keyboard_pressed" code="-119" />
+        <key start_pos_x="66.6%p" start_pos_y="0%p" width="33.3%p" height="100%p" key_type="17" repeat="false" balloon="false" icon="@drawable/popup_key_icon_settings" hlicon="@drawable/popup_key_icon_settings_pressed" code="-121" />
+    </row>
+</keyboard>

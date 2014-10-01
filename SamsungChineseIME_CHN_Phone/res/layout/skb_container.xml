@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.inputmethod.softkeyboard.SimeSkbKeyboardContainer android:orientation="vertical" android:background="@drawable/textinput_panel_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewFlipper android:id="@id/alpha_floatable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.samsung.inputmethod.softkeyboard.SimeSkbKeyboardView android:id="@id/alpha_view1" android:paddingLeft="@dimen/skb_padding_left" android:paddingTop="@dimen/skb_padding_top" android:paddingRight="@dimen/skb_padding_right" android:paddingBottom="@dimen/skb_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.samsung.inputmethod.softkeyboard.SimeSkbKeyboardView android:id="@id/alpha_view2" android:paddingLeft="@dimen/skb_padding_left" android:paddingTop="@dimen/skb_padding_top" android:paddingRight="@dimen/skb_padding_right" android:paddingBottom="@dimen/skb_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ViewFlipper>
+    <com.samsung.inputmethod.handwriting.SimeHWBoxView android:id="@id/handwrite_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.samsung.inputmethod.softkeyboard.SimeSkbKeyboardContainer>

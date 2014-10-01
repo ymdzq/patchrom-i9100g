@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/complete_item_left_layout" style="@style/ListItemLayout1">
+        <ImageView android:id="@id/device_type_imageView" style="@style/ThumbnailImage" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/complete_item_middle_layout" style="@style/ListItemLayout2">
+        <TextView android:id="@id/receiverName_textView2" style="@style/TitleText" />
+        <LinearLayout android:layout_gravity="center_vertical" style="@style/HorizontalLayout">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/connecting_progress" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="6.0dip" style="?android:attr/progressBarStyleSmall" />
+            <TextView android:id="@id/transferInfo_textView" style="@style/SubText1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

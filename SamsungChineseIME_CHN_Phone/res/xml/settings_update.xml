@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/setting_db_update_title" android:key="setting_update_summary_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/setting_db_update_setting" android:key="@string/setting_db_update_setting_key"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <Preference android:title="@string/setting_db_update_action" android:key="@string/setting_db_update_action_key" />
+    <ListPreference android:title="@string/setting_db_update_auto_title" android:key="@string/setting_db_update_auto_key" android:defaultValue="0" android:dialogTitle="@string/setting_db_update_auto_title" />
+    <CheckBoxPreference android:persistent="true" android:title="@string/setting_db_update_notice_title" android:key="@string/setting_db_update_notice_key" android:summary="@string/setting_db_update_notice_summary" />
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/progress_item_left_layout" style="@style/ListItemLayout1">
+        <ImageView android:id="@id/uploadicon_imageView" android:src="@drawable/ic_wifi_direct_sending" style="@style/ThumbnailImage" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/progress_item_middle_layout" style="@style/ListItemLayout2">
+        <TextView android:id="@id/receiverName_textView1" style="@style/TitleText" />
+        <ProgressBar android:id="@id/upload_progressBar" style="@style/TransferProgressbar" />
+        <RelativeLayout android:id="@id/receiver_layout" style="@style/Layout2">
+            <TextView android:id="@id/count_textView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/SubText2" />
+            <TextView android:id="@id/progressRate_textView" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/SubText2" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/progress_item_right_layout" style="@style/ListItemLayout3">
+        <RelativeLayout android:id="@id/cancel_layout" style="@style/CancelButtonLayout">
+            <ImageView style="@style/CancelImage" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

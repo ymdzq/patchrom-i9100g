@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/toturial_content" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/turorial" android:scaleType="fitXY" />
+        <CheckBox android:gravity="center" android:id="@id/confirmbox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/checkbox_string" />
+    </LinearLayout>
+</ScrollView>

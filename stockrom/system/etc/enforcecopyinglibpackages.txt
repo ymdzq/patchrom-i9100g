@@ -1,0 +1,8 @@
+7
+com.android.email
+com.qiyi.video
+com.sec.pcw
+dopool.mango.video
+com.sec.chaton
+com.sec.android.app.sysscope
+com.wssyncmldm

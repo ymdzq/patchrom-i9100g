@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outbound_transfer">Outbound transfers</string>
+    <string name="sending_files">Sending files</string>
+    <string name="sending_files_to">Sending files to</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting…</string>
+    <string name="cancel_all">Cancel all</string>
+    <string name="pd_more">%d more</string>
+    <string name="file_share_service_not_available">File sharing not available</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="transfer_will_be_cancelled">File transfer will be cancelled</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="files_sent">Files sent</string>
+    <string name="pd_sent">%d sent</string>
+    <string name="pd_cancelled">%d cancelled</string>
+    <string name="all_file_transfers_will_be_canceled">All file transfers will be cancelled</string>
+    <string name="sending_ps_ing">Sending %s…</string>
+    <string name="waiting_to_send_files_ing">Waiting to send files…</string>
+    <string name="loading">Loading…</string>
+    <string name="sending_cancelled">Sending canceled</string>
+    <string name="pd_failed">%d failed</string>
+    <string name="sending">Sending…</string>
+    <string name="pd_file_sent">%d files sent</string>
+    <string name="checking_files_to_send_ing">Checking files to send…</string>
+    <string name="unable_to_send">Unable to send</string>
+    <string name="file_sending_completed">File sending completed</string>
+    <string name="total">Total</string>
+    <string name="failed_to_send_some_files">Failed to send some files</string>
+    <string name="failed_to_send_file">Failed to send file</string>
+    <string name="ps_and_pd_more_files">%1$s and %2$d more files</string>
+    <string name="ps_and_pd_1_more_file">%s and 1 more file</string>
+    <string name="failed_to_create_vcf_file">Failed to create VCF file</string>
+    <string name="failed_to_generate_data">Failed to generate data</string>
+    <string name="wifi_direct">WLAN Direct</string>
+    <string name="stms_version">GT-I9300_EUR_20121130_0259</string>
+</resources>

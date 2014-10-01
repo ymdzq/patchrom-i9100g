@@ -1,0 +1,228 @@
+assert(getprop("ro.product.device") == "GT-I9100G" ||
+       getprop("ro.build.product") == "GT-I9100G");
+show_progress(0.500000, 0);
+ui_print("Formatting system...");
+unmount("/system");
+format("ext4", "EMMC", "/dev/block/mmcblk0p9", "0");
+ui_print("Installing system files...");
+mount("ext4", "EMMC", "/dev/block/mmcblk0p9", "/system");
+package_extract_dir("system", "/system");
+ui_print("Creating system links...");
+symlink("/preload/symlink/system/app/AllSharePlay.apk", "/system/app/AllSharePlay.apk");
+symlink("/preload/symlink/system/app/AllshareMediaServer.apk", "/system/app/AllshareMediaServer.apk");
+symlink("/preload/symlink/system/app/AllshareService.apk", "/system/app/AllshareService.apk");
+symlink("/preload/symlink/system/app/AnalogClockSimple.apk", "/system/app/AnalogClockSimple.apk");
+symlink("/preload/symlink/system/app/AnalogClockUnique.apk", "/system/app/AnalogClockUnique.apk");
+symlink("/preload/symlink/system/app/ApplicationsProvider.apk", "/system/app/ApplicationsProvider.apk");
+symlink("/preload/symlink/system/app/BCService.apk", "/system/app/BCService.apk");
+symlink("/preload/symlink/system/app/BackupRestoreConfirmation.apk", "/system/app/BackupRestoreConfirmation.apk");
+symlink("/preload/symlink/system/app/BadgeProvider.apk", "/system/app/BadgeProvider.apk");
+symlink("/preload/symlink/system/app/BasicLiveWallpapers.apk", "/system/app/BasicLiveWallpapers.apk");
+symlink("/preload/symlink/system/app/BluetoothAvrcp.apk", "/system/app/BluetoothAvrcp.apk");
+symlink("/preload/symlink/system/app/BluetoothMap.apk", "/system/app/BluetoothMap.apk");
+symlink("/preload/symlink/system/app/CSC.apk", "/system/app/CSC.apk");
+symlink("/preload/symlink/system/app/CapabilityManagerService.apk", "/system/app/CapabilityManagerService.apk");
+symlink("/preload/symlink/system/app/CertInstaller.apk", "/system/app/CertInstaller.apk");
+symlink("/preload/symlink/system/app/ChatON_MARKET.apk", "/system/app/ChatON_MARKET.apk");
+symlink("/preload/symlink/system/app/ClipboardSaveService.apk", "/system/app/ClipboardSaveService.apk");
+symlink("/preload/symlink/system/app/ClockPackageChina.apk", "/system/app/ClockPackageChina.apk");
+symlink("/preload/symlink/system/app/ContextAwareService.apk", "/system/app/ContextAwareService.apk");
+symlink("/preload/symlink/system/app/DSMForwarding.apk", "/system/app/DSMForwarding.apk");
+symlink("/preload/symlink/system/app/DSMLawmo.apk", "/system/app/DSMLawmo.apk");
+symlink("/preload/symlink/system/app/Days.apk", "/system/app/Days.apk");
+symlink("/preload/symlink/system/app/DefaultContainerService.apk", "/system/app/DefaultContainerService.apk");
+symlink("/preload/symlink/system/app/DigitalClock.apk", "/system/app/DigitalClock.apk");
+symlink("/preload/symlink/system/app/Divx.apk", "/system/app/Divx.apk");
+symlink("/preload/symlink/system/app/DrmProvider.apk", "/system/app/DrmProvider.apk");
+symlink("/preload/symlink/system/app/DualClockAnalog.apk", "/system/app/DualClockAnalog.apk");
+symlink("/preload/symlink/system/app/DualClockDigital.apk", "/system/app/DualClockDigital.apk");
+symlink("/preload/symlink/system/app/EdmSysScopeService.apk", "/system/app/EdmSysScopeService.apk");
+symlink("/preload/symlink/system/app/EdmVpnServices.apk", "/system/app/EdmVpnServices.apk");
+symlink("/preload/symlink/system/app/EnterprisePermissions.apk", "/system/app/EnterprisePermissions.apk");
+symlink("/preload/symlink/system/app/FaceLock.apk", "/system/app/FaceLock.apk");
+symlink("/preload/symlink/system/app/FmRadio.apk", "/system/app/FmRadio.apk");
+symlink("/preload/symlink/system/app/FmmDM.apk", "/system/app/FmmDM.apk");
+symlink("/preload/symlink/system/app/FmmDS.apk", "/system/app/FmmDS.apk");
+symlink("/preload/symlink/system/app/FotaClient.apk", "/system/app/FotaClient.apk");
+symlink("/preload/symlink/system/app/GoogleTTS.apk", "/system/app/GoogleTTS.apk");
+symlink("/preload/symlink/system/app/GroupCast.apk", "/system/app/GroupCast.apk");
+symlink("/preload/symlink/system/app/HelpHub.apk", "/system/app/HelpHub.apk");
+symlink("/preload/symlink/system/app/InputDevices.apk", "/system/app/InputDevices.apk");
+symlink("/preload/symlink/system/app/JobManager.apk", "/system/app/JobManager.apk");
+symlink("/preload/symlink/system/app/Kaiti.apk", "/system/app/Kaiti.apk");
+symlink("/preload/symlink/system/app/KeyChain.apk", "/system/app/KeyChain.apk");
+symlink("/preload/symlink/system/app/Kies.apk", "/system/app/Kies.apk");
+symlink("/preload/symlink/system/app/LogsProvider.apk", "/system/app/LogsProvider.apk");
+symlink("/preload/symlink/system/app/MangoTV_V1.0_NoLauncher.apk", "/system/app/MangoTV_V1.0_NoLauncher.apk");
+symlink("/preload/symlink/system/app/Miao.apk", "/system/app/Miao.apk");
+symlink("/preload/symlink/system/app/Microbes.apk", "/system/app/Microbes.apk");
+symlink("/preload/symlink/system/app/Mobeenews_V12.0_NoLauncher.apk", "/system/app/Mobeenews_V12.0_NoLauncher.apk");
+symlink("/preload/symlink/system/app/MobilePrint.apk", "/system/app/MobilePrint.apk");
+symlink("/preload/symlink/system/app/MobilePrint.odex", "/system/app/MobilePrint.odex");
+symlink("/preload/symlink/system/app/MobileTrackerEngineTwo.apk", "/system/app/MobileTrackerEngineTwo.apk");
+symlink("/preload/symlink/system/app/MtpApplication.apk", "/system/app/MtpApplication.apk");
+symlink("/preload/symlink/system/app/MusicFX.apk", "/system/app/MusicFX.apk");
+symlink("/preload/symlink/system/app/MusicPlayer.apk", "/system/app/MusicPlayer.apk");
+symlink("/preload/symlink/system/app/OceanWeather.apk", "/system/app/OceanWeather.apk");
+symlink("/preload/symlink/system/app/OmaCP.apk", "/system/app/OmaCP.apk");
+symlink("/preload/symlink/system/app/OmaDrmPopup.apk", "/system/app/OmaDrmPopup.apk");
+symlink("/preload/symlink/system/app/PCWClientS.apk", "/system/app/PCWClientS.apk");
+symlink("/preload/symlink/system/app/PRUI.apk", "/system/app/PRUI.apk");
+symlink("/preload/symlink/system/app/PackageInstaller.apk", "/system/app/PackageInstaller.apk");
+symlink("/preload/symlink/system/app/PanningTryActually.apk", "/system/app/PanningTryActually.apk");
+symlink("/preload/symlink/system/app/PhoneErrService.apk", "/system/app/PhoneErrService.apk");
+symlink("/preload/symlink/system/app/PickUpTutorial.apk", "/system/app/PickUpTutorial.apk");
+symlink("/preload/symlink/system/app/PolarisViewer.apk", "/system/app/PolarisViewer.apk");
+symlink("/preload/symlink/system/app/PopupuiReceiver.apk", "/system/app/PopupuiReceiver.apk");
+symlink("/preload/symlink/system/app/Preconfig.apk", "/system/app/Preconfig.apk");
+symlink("/preload/symlink/system/app/PreloadInstaller.apk", "/system/app/PreloadInstaller.apk");
+symlink("/preload/symlink/system/app/Qiyi_V3.0_NoLauncher.apk", "/system/app/Qiyi_V3.0_NoLauncher.apk");
+symlink("/preload/symlink/system/app/SPlannerAppWidget.apk", "/system/app/SPlannerAppWidget.apk");
+symlink("/preload/symlink/system/app/SamsungAppsUNA3.apk", "/system/app/SamsungAppsUNA3.apk");
+symlink("/preload/symlink/system/app/SamsungCamera.apk", "/system/app/SamsungCamera.apk");
+symlink("/preload/symlink/system/app/SamsungChineseIME_CHN_Phone.apk", "/system/app/SamsungChineseIME_CHN_Phone.apk");
+symlink("/preload/symlink/system/app/SamsungTTS.apk", "/system/app/SamsungTTS.apk");
+symlink("/preload/symlink/system/app/SamsungWidget_FavoriteApp.apk", "/system/app/SamsungWidget_FavoriteApp.apk");
+symlink("/preload/symlink/system/app/Samsungservice.apk", "/system/app/Samsungservice.apk");
+symlink("/preload/symlink/system/app/SecBluetooth.apk", "/system/app/SecBluetooth.apk");
+symlink("/preload/symlink/system/app/SecBrowser_CHN.apk", "/system/app/SecBrowser_CHN.apk");
+symlink("/preload/symlink/system/app/SecCalculator2.apk", "/system/app/SecCalculator2.apk");
+symlink("/preload/symlink/system/app/SecCalendarProvider.apk", "/system/app/SecCalendarProvider.apk");
+symlink("/preload/symlink/system/app/SecCalendar_China.apk", "/system/app/SecCalendar_China.apk");
+symlink("/preload/symlink/system/app/SecContacts.apk", "/system/app/SecContacts.apk");
+symlink("/preload/symlink/system/app/SecContacts.odex", "/system/app/SecContacts.odex");
+symlink("/preload/symlink/system/app/SecContactsProvider.apk", "/system/app/SecContactsProvider.apk");
+symlink("/preload/symlink/system/app/SecContactsProvider.odex", "/system/app/SecContactsProvider.odex");
+symlink("/preload/symlink/system/app/SecDownloadProvider.apk", "/system/app/SecDownloadProvider.apk");
+symlink("/preload/symlink/system/app/SecDownloadProviderUi.apk", "/system/app/SecDownloadProviderUi.apk");
+symlink("/preload/symlink/system/app/SecEmail.apk", "/system/app/SecEmail.apk");
+symlink("/preload/symlink/system/app/SecEmail.odex", "/system/app/SecEmail.odex");
+symlink("/preload/symlink/system/app/SecExchange.apk", "/system/app/SecExchange.apk");
+symlink("/preload/symlink/system/app/SecFileShareClient.apk", "/system/app/SecFileShareClient.apk");
+symlink("/preload/symlink/system/app/SecFileShareServer.apk", "/system/app/SecFileShareServer.apk");
+symlink("/preload/symlink/system/app/SecGallery2.apk", "/system/app/SecGallery2.apk");
+symlink("/preload/symlink/system/app/SecGallery2.odex", "/system/app/SecGallery2.odex");
+symlink("/preload/symlink/system/app/SecHTMLViewer.apk", "/system/app/SecHTMLViewer.apk");
+symlink("/preload/symlink/system/app/SecLiveWallpapersPicker.apk", "/system/app/SecLiveWallpapersPicker.apk");
+symlink("/preload/symlink/system/app/SecMediaProvider.apk", "/system/app/SecMediaProvider.apk");
+symlink("/preload/symlink/system/app/SecMemo.apk", "/system/app/SecMemo.apk");
+symlink("/preload/symlink/system/app/SecMemoWidget.apk", "/system/app/SecMemoWidget.apk");
+symlink("/preload/symlink/system/app/SecMiniDiaryChina.apk", "/system/app/SecMiniDiaryChina.apk");
+symlink("/preload/symlink/system/app/SecMms.apk", "/system/app/SecMms.apk");
+symlink("/preload/symlink/system/app/SecMms.odex", "/system/app/SecMms.odex");
+symlink("/preload/symlink/system/app/SecNoteMyFiles.apk", "/system/app/SecNoteMyFiles.apk");
+symlink("/preload/symlink/system/app/SecOmaDownloadProvider.apk", "/system/app/SecOmaDownloadProvider.apk");
+symlink("/preload/symlink/system/app/SecPhone.apk", "/system/app/SecPhone.apk");
+symlink("/preload/symlink/system/app/SecPhone.odex", "/system/app/SecPhone.odex");
+symlink("/preload/symlink/system/app/SecSettings.apk", "/system/app/SecSettings.apk");
+symlink("/preload/symlink/system/app/SecSettings.odex", "/system/app/SecSettings.odex");
+symlink("/preload/symlink/system/app/SecSettingsProvider.apk", "/system/app/SecSettingsProvider.apk");
+symlink("/preload/symlink/system/app/SecTelephonyProvider.apk", "/system/app/SecTelephonyProvider.apk");
+symlink("/preload/symlink/system/app/SecWallpaperChooser.apk", "/system/app/SecWallpaperChooser.apk");
+symlink("/preload/symlink/system/app/SecurityProvider.apk", "/system/app/SecurityProvider.apk");
+symlink("/preload/symlink/system/app/ShaoNv.apk", "/system/app/ShaoNv.apk");
+symlink("/preload/symlink/system/app/SharedStorageBackup.apk", "/system/app/SharedStorageBackup.apk");
+symlink("/preload/symlink/system/app/SimpleAlarmClock.apk", "/system/app/SimpleAlarmClock.apk");
+symlink("/preload/symlink/system/app/SimpleFavoritesWidget.apk", "/system/app/SimpleFavoritesWidget.apk");
+symlink("/preload/symlink/system/app/SinaNewsDaemon.apk", "/system/app/SinaNewsDaemon.apk");
+symlink("/preload/symlink/system/app/SinaNewsWidget.apk", "/system/app/SinaNewsWidget.apk");
+symlink("/preload/symlink/system/app/SinaStockDaemon.apk", "/system/app/SinaStockDaemon.apk");
+symlink("/preload/symlink/system/app/SinaStockWidget.apk", "/system/app/SinaStockWidget.apk");
+symlink("/preload/symlink/system/app/SinaWeatherWidget.apk", "/system/app/SinaWeatherWidget.apk");
+symlink("/preload/symlink/system/app/SinaWeatherWidget_Main.apk", "/system/app/SinaWeatherWidget_Main.apk");
+symlink("/preload/symlink/system/app/SlideShow.apk", "/system/app/SlideShow.apk");
+symlink("/preload/symlink/system/app/SmartcardService.apk", "/system/app/SmartcardService.apk");
+symlink("/preload/symlink/system/app/Stk.apk", "/system/app/Stk.apk");
+symlink("/preload/symlink/system/app/SyncmlDM.apk", "/system/app/SyncmlDM.apk");
+symlink("/preload/symlink/system/app/SyncmlDS.apk", "/system/app/SyncmlDS.apk");
+symlink("/preload/symlink/system/app/SysScope.apk", "/system/app/SysScope.apk");
+symlink("/preload/symlink/system/app/TwDVFSApp.apk", "/system/app/TwDVFSApp.apk");
+symlink("/preload/symlink/system/app/UserDictionaryProvider.apk", "/system/app/UserDictionaryProvider.apk");
+symlink("/preload/symlink/system/app/VideoPlayer.apk", "/system/app/VideoPlayer.apk");
+symlink("/preload/symlink/system/app/Viva_V3.0_NoLauncher.apk", "/system/app/Viva_V3.0_NoLauncher.apk");
+symlink("/preload/symlink/system/app/VoiceRecorder.apk", "/system/app/VoiceRecorder.apk");
+symlink("/preload/symlink/system/app/VpnDialogs.apk", "/system/app/VpnDialogs.apk");
+symlink("/preload/symlink/system/app/WAPPushManager.apk", "/system/app/WAPPushManager.apk");
+symlink("/preload/symlink/system/app/WeatherWall.apk", "/system/app/WeatherWall.apk");
+symlink("/preload/symlink/system/app/Youku_V2.0_NoLauncher.apk", "/system/app/Youku_V2.0_NoLauncher.apk");
+symlink("/preload/symlink/system/app/kieswifi.apk", "/system/app/kieswifi.apk");
+symlink("/preload/symlink/system/app/minimode-res.apk", "/system/app/minimode-res.apk");
+symlink("/preload/symlink/system/app/sCloudBackupApp.apk", "/system/app/sCloudBackupApp.apk");
+symlink("/preload/symlink/system/app/sCloudBackupProvider.apk", "/system/app/sCloudBackupProvider.apk");
+symlink("/preload/symlink/system/app/sCloudDataRelay.apk", "/system/app/sCloudDataRelay.apk");
+symlink("/preload/symlink/system/app/sCloudDataSync.apk", "/system/app/sCloudDataSync.apk");
+symlink("/preload/symlink/system/app/sCloudSyncBrowser.apk", "/system/app/sCloudSyncBrowser.apk");
+symlink("/preload/symlink/system/app/sCloudSyncCalendar.apk", "/system/app/sCloudSyncCalendar.apk");
+symlink("/preload/symlink/system/app/sCloudSyncContacts.apk", "/system/app/sCloudSyncContacts.apk");
+symlink("/preload/symlink/system/app/shutdown_JBUP.apk", "/system/app/shutdown_JBUP.apk");
+symlink("/preload/symlink/system/app/wssyncmlnps.apk", "/system/app/wssyncmlnps.apk");
+symlink("/system/bin/mksh", "/system/bin/sh");
+symlink("/system/bin/toolbox", "/system/bin/cat", "/system/bin/chmod",
+        "/system/bin/chown", "/system/bin/cmp", "/system/bin/date",
+        "/system/bin/dd", "/system/bin/df", "/system/bin/dmesg",
+        "/system/bin/getevent", "/system/bin/getprop", "/system/bin/hd",
+        "/system/bin/id", "/system/bin/ifconfig", "/system/bin/iftop",
+        "/system/bin/insmod", "/system/bin/ioctl", "/system/bin/ionice",
+        "/system/bin/kill", "/system/bin/ln", "/system/bin/log",
+        "/system/bin/ls", "/system/bin/lsmod", "/system/bin/lsof",
+        "/system/bin/md5", "/system/bin/mkdir", "/system/bin/mount",
+        "/system/bin/mv", "/system/bin/nandread", "/system/bin/netstat",
+        "/system/bin/newfs_msdos", "/system/bin/notify", "/system/bin/playback",
+        "/system/bin/printenv", "/system/bin/ps", "/system/bin/reboot",
+        "/system/bin/renice", "/system/bin/rm", "/system/bin/rmdir",
+        "/system/bin/rmmod", "/system/bin/route", "/system/bin/schedtop",
+        "/system/bin/sendevent", "/system/bin/setconsole",
+        "/system/bin/setprop", "/system/bin/sleep", "/system/bin/smd",
+        "/system/bin/start", "/system/bin/stop", "/system/bin/sync",
+        "/system/bin/top", "/system/bin/touch", "/system/bin/touchinput",
+        "/system/bin/umount", "/system/bin/uptime", "/system/bin/vmstat",
+        "/system/bin/watchprops",
+        "/system/bin/wipe");
+symlink("/system/csc/CHN/csc_contents", "/system/csc_contents");
+symlink("/system/fonts/Roboto-Bold.ttf", "/system/fonts/DroidSans-Bold.ttf");
+symlink("/system/fonts/Roboto-Regular.ttf", "/system/fonts/DroidSans.ttf");
+symlink("/vendor/lib/libPVRScopeServices_SGX540_120.so", "/system/vendor/lib/libPVRScopeServices.so");
+ui_print("Set permission...");
+set_perm_recursive(0, 0, 0755, 0644, "/system");
+set_perm_recursive(0, 2000, 0755, 0755, "/system/bin");
+set_perm(0, 3003, 02750, "/system/bin/netcfg");
+set_perm(0, 3004, 02755, "/system/bin/ping");
+set_perm(0, 2000, 06750, "/system/bin/run-as");
+set_perm_recursive(1002, 1002, 0755, 0440, "/system/etc/bluetooth");
+set_perm(0, 0, 0755, "/system/etc/bluetooth");
+set_perm(1000, 1000, 0640, "/system/etc/bluetooth/auto_pairing.conf");
+set_perm(3002, 3002, 0444, "/system/etc/bluetooth/blacklist.conf");
+set_perm(1002, 1002, 0440, "/system/etc/dbus.conf");
+set_perm(1014, 2000, 0550, "/system/etc/dhcpcd/dhcpcd-run-hooks");
+set_perm(0, 2000, 0550, "/system/etc/init.goldfish.sh");
+set_perm_recursive(0, 0, 0755, 0555, "/system/etc/ppp");
+set_perm_recursive(0, 2000, 0755, 0755, "/system/vendor");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/etc");
+set_perm(0, 0, 0644, "/system/vendor/etc/audio_policy.conf");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/firmware");
+set_perm(0, 0, 0644, "/system/vendor/firmware/ducati-m3.bin");
+set_perm_recursive(0, 0, 0755, 0644, "/system/vendor/lib");
+set_perm(0, 2000, 0755, "/system/vendor/lib");
+set_perm(0, 2000, 0755, "/system/vendor/lib/egl");
+set_perm(0, 2000, 0755, "/system/vendor/lib/hw");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/pittpatt");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin");
+set_perm(0, 0, 0644, "/system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/res");
+set_perm(0, 0, 0644, "/system/vendor/res/images/dock/dock.png");
+set_perm_recursive(0, 2000, 0755, 0755, "/system/xbin");
+ui_print("Update Boot image...");
+show_progress(0.200000, 0);
+show_progress(0.200000, 10);
+package_extract_file("boot.img", "/dev/block/mmcblk0p5");
+show_progress(0.100000, 0);
+mount("ext4", "EMMC", "/dev/block/mmcblk0p10", "/data");
+package_extract_dir("data", "/data");
+set_perm_recursive(1000, 1000, 0755, 0644, "/data/preinstall_apps");
+unmount("/data");
+unmount("/system");

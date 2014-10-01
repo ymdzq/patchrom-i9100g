@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/linearLayout1" style="@style/NotificationLayout2">
+        <ImageView android:id="@id/imageView1" style="@style/SendingImage" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/linearLayout2" style="@style/NotificationLayout3">
+        <TextView android:id="@id/ongoing_filename_textview" style="@style/NotiTitleText" />
+        <ProgressBar android:id="@id/progressBar1" style="@style/OngoingProgressbar" />
+        <TextView android:id="@id/ongoing_status_textview" android:text="@string/sending" style="@style/NotiSubText1" />
+    </LinearLayout>
+</LinearLayout>

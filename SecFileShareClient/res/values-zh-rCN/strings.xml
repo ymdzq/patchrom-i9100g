@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outbound_transfer">外向传输</string>
+    <string name="sending_files">正在发送文件</string>
+    <string name="sending_files_to">发送文件至</string>
+    <string name="connected">已连接</string>
+    <string name="connecting">连接中…</string>
+    <string name="cancel_all">全部取消</string>
+    <string name="pd_more">%d 更多</string>
+    <string name="file_share_service_not_available">文件共享不可用</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="transfer_will_be_cancelled">将取消文件传输</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="files_sent">文件已发送</string>
+    <string name="pd_sent">%d 已发送</string>
+    <string name="pd_cancelled">%d 已取消</string>
+    <string name="all_file_transfers_will_be_canceled">将取消所有文件传输</string>
+    <string name="sending_ps_ing">正在发送 %s…</string>
+    <string name="waiting_to_send_files_ing">等待发送文件…</string>
+    <string name="loading">载入中…</string>
+    <string name="sending_cancelled">发送取消</string>
+    <string name="pd_failed">%d 已失败</string>
+    <string name="sending">发送中…</string>
+    <string name="pd_file_sent">%d文件已发送</string>
+    <string name="checking_files_to_send_ing">正在检测要发送的文件…</string>
+    <string name="unable_to_send">无法发送</string>
+    <string name="file_sending_completed">文件发送已完成</string>
+    <string name="total">全部</string>
+    <string name="failed_to_send_some_files">发送一些文件失败</string>
+    <string name="failed_to_send_file">发送文件失败</string>
+    <string name="ps_and_pd_more_files">%1$s 和 %2$d 个更多文件</string>
+    <string name="ps_and_pd_1_more_file">%s 和 1 个更多文件</string>
+    <string name="failed_to_create_vcf_file">创建 VCF 文件失败</string>
+    <string name="failed_to_generate_data">生成数据失败</string>
+    <string name="wifi_direct">WLAN直连</string>
+    <string name="stms_version">GT-I9300_EUR_20121130_0259</string>
+</resources>

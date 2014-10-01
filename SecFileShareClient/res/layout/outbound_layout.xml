@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/Layout0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/outbound_fragment" style="@style/Layout0" class="com.sec.android.app.FileShareClient.OutboundFragment" />
+</LinearLayout>

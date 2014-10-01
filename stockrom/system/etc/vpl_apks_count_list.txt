@@ -1,0 +1,13 @@
+/system/preload/Kaixin_V2.0_Deletable.apk
+/system/preload/UCweb_V8.0.apk
+/system/preload/TencentWeibo_V3.0.apk
+/system/preload/QQ_V2012_Deletable.apk
+/system/preload/Sinamicroblog_V3.0_Deletable.apk
+/system/preload/QQBrowser_V3.0_Deletable.apk
+/system/preload/Renren_V4.0_Deletable.apk
+/system/preload/MediaHub_chn.apk
+/system/preload/Flipboard1.8.4_Deletable.apk
+/system/preload/Cooldict_V1.0_Deletable.apk
+/system/preload/StraightFlush_V6.0_Deletable.apk
+/system/preload/ReadersHub_chn_U1.apk
+/system/preload/WikiAR_V12.0_Deletable.apk
